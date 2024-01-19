@@ -11,6 +11,7 @@
 当前实验设置:使用随机数随机生成topics
 1. [回归数据集结果](./v1/results_randomly_initialized_topics/regression.xlsx)
 2. [分类数据集结果](./v1/results_randomly_initialized_topics/classification.xlsx)
+3. [系数r的可视化](./v1/results_randomly_initialized_topics/heatmap_random_R/)
 ### 第一阶段使用mse
 原本设置:phase1阶段$min(OT_{distance}(\vec{h},\sum{r_k\beta_k}))$(batch层次)
 当前实验设置:phase1阶段$min(MSE(\vec{h},\sum{r_k\beta_k}))$(batch层次)
