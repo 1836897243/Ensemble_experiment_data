@@ -15,12 +15,12 @@
 3. [系数r的可视化](./v1/results_randomly_initialized_topics/heatmap_random_R/)
 ### 第一阶段使用mse
 原本设置:phase1阶段$min(OT_{distance}(\vec{h},\sum{r_k\beta_k}))$(batch层次)
-当前实验设置:phase1阶段$min(MSE(\vec{h},\sum{r_k\beta_k}))$(batch层次)
+当前实验设置:phase1阶段$min(MSE(\vec{h},\sum{r_k\beta_k}))$
 1. [回归数据集结果](./v1/results_mse_in_phase1/regression.xlsx)
 2. [分类数据集结果](./v1/results_mse_in_phase1/classification.xlsx)
 3. [系数r的可视化](./v1/results_mse_in_phase1/heatmap_mse_in_phase1/)
 ### 第二阶段使用ot
-原本设置:phase2阶段$min(MSE(\vec{h},\sum{r_k\beta_k}))$(instance层次)
+原本设置:phase2阶段$min(MSE(\vec{h},\sum{r_k\beta_k}))$
 当前实验设置:phase2阶段$min(OT_{distance}(\vec{h},\sum{r_k\beta_k}))$(batch层次)
 1. [回归数据集结果](./v1/results_ot_in_phase2/regression.xlsx)
 2. [分类数据集结果](./v1/results_ot_in_phase2/classification.xlsx)
