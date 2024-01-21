@@ -54,9 +54,6 @@
 1. [回归数据集结果](./v2/results_pesudo_label/regression.xlsx)
 2. [分类数据集结果](./v2/results_pesudo_label/classification.xlsx)
 
-### 第一阶段使用mse与第二阶段使用ot结果比较
-1. [回归数据集结果](./v1/result_mse_ot_compare/regression.xlsx)
-2. [分类数据集结果](./v1/result_mse_ot_compare/classification.xlsx)
 # ------
 2024/1/21 update<br>
 [v2](#v2)<br>
