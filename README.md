@@ -59,7 +59,7 @@
 2. [分类数据集结果](./v1/result_mse_ot_compare/classification.xlsx)
 # ------
 2024/1/21 update
-[v2](#v2)
-[v1中第一阶段使用mse与第二阶段使用ot结果比较](#第一阶段使用mse与第二阶段使用ot结果比较)
-[v1中标准方法(phase1 ot,phase2 mse)phase1数据记录(hidden representaion,topic,distance_matrix):v1-默认参数结果-6](#默认参数结果)
+[v2](#v2)<br>
+[v1中第一阶段使用mse与第二阶段使用ot结果比较](#第一阶段使用mse与第二阶段使用ot结果比较)<br>
+[v1中标准方法(phase1 ot,phase2 mse)phase1数据记录(hidden representaion,topic,distance_matrix):v1-默认参数结果-6](#默认参数结果)<br>
    
