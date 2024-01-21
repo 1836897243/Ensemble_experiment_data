@@ -24,6 +24,9 @@
 当前实验设置:phase2阶段$$min(OT_{distance}(\vec{h},\sum{r_k\beta_k}))$$(batch层次)<br>
 1. [回归数据集结果](./v1/results_ot_in_phase2/regression.xlsx)
 2. [分类数据集结果](./v1/results_ot_in_phase2/classification.xlsx)
+### 第一阶段使用mse与第二阶段使用ot结果比较
+1. [回归数据集结果](./v1/result_mse_ot_compare/regression.xlsx)
+2. [分类数据集结果](./v1/result_mse_ot_compare/classification.xlsx)
 ### 减小第一阶段的patience
 原本设置:phase1的patience=16<br>
 当前实验设置:phase1的patience=6<br>
@@ -37,3 +40,22 @@
 当前实验设置:不经过预处理直接对训练集使用kmeans聚类，在将聚类中心映射至高维初始化topic，再预处理训练集<br>
 1. [回归数据集结果](./v1/results_kmeans_before_preprocessing/regression.xlsx)
 2. [分类数据集结果](./v1/results_kmeans_before_preprocessing/classification.xlsx)
+# 20241/21 update
+## v2
+一阶段只使用estimator
+### 使用MSE对齐hidden representaion与projection
+1. [回归数据集结果](./v2/results_MSE/regression.xlsx)
+2. [分类数据集结果](./v2/results_MSE/classification.xlsx)
+### 使用OT对齐hidden representaion与projection
+1. [回归数据集结果](./v2/results_OT/regression.xlsx)
+2. [分类数据集结果](./v2/results_OT/classification.xlsx)
+### 将projection作为pseodu_label结果
+1. [回归数据集结果](./v2/results_pesudo_label/regression.xlsx)
+2. [分类数据集结果](./v2/results_pesudo_label/classification.xlsx)
+
+### 第一阶段使用mse与第二阶段使用ot结果比较
+1. [回归数据集结果](./v1/result_mse_ot_compare/regression.xlsx)
+2. [分类数据集结果](./v1/result_mse_ot_compare/classification.xlsx)
+   
+### 标准方法(一阶段OT,二阶段MSE)中的数据可视化
+[可视化数据](./v1/results_standard_version/data_visuliztion_standard/)
