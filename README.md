@@ -43,7 +43,8 @@
 1. [回归数据集结果](./v1/results_kmeans_before_preprocessing/regression.xlsx)
 2. [分类数据集结果](./v1/results_kmeans_before_preprocessing/classification.xlsx)
 ## v2
-一阶段只使用estimator
+(phase1只使用estimator预测y，estimator为MLP)<br>
+一阶段只使用estimator<br>
 ### 使用MSE对齐hidden representaion与projection
 1. [回归数据集结果](./v2/results_MSE/regression.xlsx)
 2. [分类数据集结果](./v2/results_MSE/classification.xlsx)
@@ -53,8 +54,17 @@
 ### 将projection作为pseodu_label结果
 1. [回归数据集结果](./v2/results_pesudo_label/regression.xlsx)
 2. [分类数据集结果](./v2/results_pesudo_label/classification.xlsx)
-
+## v3
+(v2基础上phase1的estimator结构与phase2结构相同)<br>
+### 将projection作为pseodu_label结果
+1. [回归数据集结果](./v3/pseudo_label/regression.xlsx)
+2. [分类数据集结果](./v3/pseudo_label/classification.xlsx)
+3. [数据记录以及可视化](./v3/pseudo_label/data_visulization/)
 # ------
+2024/1/22 update<br>
+[v3](#v3)
+实验结构:v2基础上，phase1的estimator结构与phase2结构相同<br>
+实验数据：将phase的r*topic作为phase2的pseudo label的实验结果<br>
 2024/1/21 update<br>
 [v2](#v2)<br>
 [v1中第一阶段使用mse与第二阶段使用ot结果比较](#第一阶段使用mse与第二阶段使用ot结果比较)<br>
