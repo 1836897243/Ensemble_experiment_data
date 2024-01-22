@@ -60,6 +60,14 @@
 1. [回归数据集结果](./v3/pseudo_label/regression.xlsx)
 2. [分类数据集结果](./v3/pseudo_label/classification.xlsx)
 3. [数据记录以及可视化](./v3/pseudo_label/data_visulization/):包含第一阶段的隐藏层hid，预测系数r的隐藏层R_hid，系数r,topic的cos相似度矩阵以及topic<br>
+# all data
+1. [回归数据集结果](./all_data/all_regression.xlsx)
+2. [分类数据集结果](./all_data/all_classification.xlsx)
+3. [实验详细介绍](./all_data/介绍.md)
+# ------
+2023/1/23 update<br>
+[所有数据同一张表结果](#all-data)
+添加了所有实验数据整合到一张表内的结果<br>
 # ------
 2024/1/22 update<br>
 [v3-将projection作为pseodu_label结果](#将projection作为pseodu_label结果v3)
