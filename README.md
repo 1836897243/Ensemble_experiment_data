@@ -59,7 +59,7 @@
 ### 将projection作为pseodu_label结果
 1. [回归数据集结果](./v3/pseudo_label/regression.xlsx)
 2. [分类数据集结果](./v3/pseudo_label/classification.xlsx)
-3. [数据记录以及可视化](./v3/pseudo_label/data_visulization/)
+3. [数据记录以及可视化](./v3/pseudo_label/data_visulization/)包含第一阶段的隐藏层hid，预测系数r的隐藏层R_hid，系数r,topic的cos相似度矩阵以及topic<br>
 # ------
 2024/1/22 update<br>
 [v3](#v3)
