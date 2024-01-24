@@ -64,10 +64,17 @@
 1. [回归数据集结果](./all_data/all_regression.xlsx)
 2. [分类数据集结果](./all_data/all_classification.xlsx)
 3. [实验详细介绍](./all_data/介绍.md)
+
+## v1+
+1. [standard version回归数据集](./v1+/standard/regression.xlsx)
+2. [standard version分类数据集](./v1+/standard/classification.xlsx)
+3. [两阶段都使用mse,回归数据集](./v1+/mse/regression.xlsx)
 # ------
 2023/1/23 update<br>
 [所有数据同一张表结果](#all-data)
 添加了所有实验数据整合到一张表内的结果<br>
+# ------
+[添加v1版本模型初始化公平时的结果v1+](#v1-1)
 # ------
 2024/1/22 update<br>
 [v3-将projection作为pseodu_label结果](#将projection作为pseodu_label结果v3)
