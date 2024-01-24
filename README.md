@@ -1,4 +1,29 @@
 # experimental records
+## 数据集
+|dataname|n_num_features|n_cat_feature|tasktype|train_size|
+|-|-|-|-|-|
+|abalone|7|1|regression|2506|
+|airfoil_self_noise|5|0|regression|961|
+|california_housing|8|0|regression|13209|
+|combined_cycle_power_plant|4|0|regression|6123|
+|concrete_compressive_strength|8|0|regression|659|
+|diamonds|6|3|regression|32364|
+|elevators|18|0|regression|9959|
+|qsar_aquatic_toxicity|8|0|regression|349|
+|qsar_fish_toxicity|6|0|regression|581|
+|superconductivty_data|81|0|regression|13608|
+|yacht_hydrodynamics|6|0|regression|197|
+|adult|6|8|binclass|26048|
+|Click prediction small|11|0|binclass|23968|
+|higgs_small|28|0|binclass|62752|
+|wilt|5|0|binclass|2903|
+|aloi|128|0|multiclass:1000|69120|
+|helena|27|0|multiclass:100|41724|
+|jannis|54|0|multiclass:4|53588|
+
+
+
+
 ## v1
 ![Alt text](./readme_resource/流程图.png)
 ### 默认参数结果
@@ -70,11 +95,11 @@
 2. [standard version分类数据集](./v1+/standard/classification.xlsx)
 3. [两阶段都使用mse,回归数据集](./v1+/mse/regression.xlsx)
 # ------
+[添加v1版本模型初始化公平时的结果v1+](#v1-1)
+# ------
 2023/1/23 update<br>
 [所有数据同一张表结果](#all-data)
 添加了所有实验数据整合到一张表内的结果<br>
-# ------
-[添加v1版本模型初始化公平时的结果v1+](#v1-1)
 # ------
 2024/1/22 update<br>
 [v3-将projection作为pseodu_label结果](#将projection作为pseodu_label结果v3)
