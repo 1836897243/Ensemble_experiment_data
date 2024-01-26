@@ -25,6 +25,7 @@
 
 
 ## v1
+(参数初始化不公平)
 ![Alt text](./readme_resource/流程图.png)
 ### 默认参数结果
 1. [回归数据集结果](./v1/results_standard_version/regression.xlsx)
@@ -68,12 +69,14 @@
 1. [回归数据集结果](./v1/results_kmeans_before_preprocessing/regression.xlsx)
 2. [分类数据集结果](./v1/results_kmeans_before_preprocessing/classification.xlsx)
 ## v1+
+(v1 参数初始化公平的版本)
 1. [standard version回归数据集](./v1+/standard/regression.xlsx)
 2. [standard version分类数据集](./v1+/standard/classification.xlsx)
 3. [两阶段都使用mse,回归数据集](./v1+/mse/regression.xlsx)
 ## v2
 (phase1只使用estimator预测y，estimator为MLP)<br>
 一阶段只使用estimator<br>
+(参数初始化不公平)<br>
 ### 使用MSE对齐hidden representaion与projection
 1. [回归数据集结果](./v2/results_MSE/regression.xlsx)
 2. [分类数据集结果](./v2/results_MSE/classification.xlsx)
@@ -85,6 +88,7 @@
 2. [分类数据集结果](./v2/results_pesudo_label/classification.xlsx)
 ## v3
 (v2基础上phase1的estimator结构与phase2结构相同)<br>
+(参数初始化不公平)<br>
 ### 将projection作为pseodu_label结果(v3)
 1. [回归数据集结果](./v3/pseudo_label/regression.xlsx)
 2. [分类数据集结果](./v3/pseudo_label/classification.xlsx)
@@ -96,6 +100,7 @@
 # ------------------------------------------------------------------------
 两阶段改为一阶段
 ## v4
+将v1,v2,v3的两阶段改为一阶段
 ![Alt text](./readme_resource/流程图_v4.png)
 ### v4结果
 1. [结果](./v4/v4_standard/v4_regression.xlsx)
