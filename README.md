@@ -67,6 +67,10 @@
 当前实验设置:不经过预处理直接对训练集使用kmeans聚类，在将聚类中心映射至高维初始化topic，再预处理训练集<br>
 1. [回归数据集结果](./v1/results_kmeans_before_preprocessing/regression.xlsx)
 2. [分类数据集结果](./v1/results_kmeans_before_preprocessing/classification.xlsx)
+## v1+
+1. [standard version回归数据集](./v1+/standard/regression.xlsx)
+2. [standard version分类数据集](./v1+/standard/classification.xlsx)
+3. [两阶段都使用mse,回归数据集](./v1+/mse/regression.xlsx)
 ## v2
 (phase1只使用estimator预测y，estimator为MLP)<br>
 一阶段只使用estimator<br>
@@ -89,15 +93,21 @@
 1. [回归数据集结果](./all_data/all_regression.xlsx)
 2. [分类数据集结果](./all_data/all_classification.xlsx)
 3. [实验详细介绍](./all_data/介绍.md)
-
-## v1+
-1. [standard version回归数据集](./v1+/standard/regression.xlsx)
-2. [standard version分类数据集](./v1+/standard/classification.xlsx)
-3. [两阶段都使用mse,回归数据集](./v1+/mse/regression.xlsx)
+# ------------------------------------------------------------------------
+两阶段改为一阶段
+## v4
+![Alt text](./readme_resource/流程图_v4.png)
+### v4结果
+1. [结果](./v4/v4_standard/v4_regression.xlsx)
+2. [missing value场景](./v4/v4_standard/v4_missing_value_regression.xlsx)
+3. [few sample场景](./v4/v4_standard/v4_few_sample_regression.xlsx)
+# ------
+2024/1/26 update
+[添加v4版本](#v4)
 # ------
 [添加v1版本模型初始化公平时的结果v1+](#v1-1)
 # ------
-2023/1/23 update<br>
+2024/1/23 update<br>
 [所有数据同一张表结果](#all-data)
 添加了所有实验数据整合到一张表内的结果<br>
 # ------
