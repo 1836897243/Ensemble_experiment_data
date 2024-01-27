@@ -108,6 +108,10 @@
 3. [few sample场景](./v4/v4_standard/v4_few_sample_regression.xlsx)
 4. [topic使用不同方差的正态分布初始化](./v4/v4_standard/v4_initial_std_regression.xlsx)
 5. [使用带temper的softmax](./v4/v4_standard/v4_softmax_temper_regression.xlsx)
+6. [改变topic num实验结果(california_housing)](./v4/v4_standard/v4_topics_num_california_housing_regression.xlsx)
+# ------
+2024/1/27 update
+[添加v4版本对于california_housing改变topic num的实验结果](#v4)
 # ------
 2024/1/26 update
 [添加v4版本](#v4)
