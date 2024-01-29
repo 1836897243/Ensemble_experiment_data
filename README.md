@@ -109,6 +109,14 @@
 4. [topic使用不同方差的正态分布初始化](./v4/v4_standard/v4_initial_std_regression.xlsx)
 5. [使用带temper的softmax](./v4/v4_standard/v4_softmax_temper_regression.xlsx)
 6. [改变topic num实验结果(california_housing)](./v4/v4_standard/v4_topics_num_california_housing_regression.xlsx)
+### v4结果2
+1. [使用不同方式进行kmeans聚类初始化topic](./v4/v4_standard/kmeans/)
+2. [random初始化，topic不正交](./v4/v4_standard/orthogonal)
+3. [random初始化topic时改变方差-(先random初始化，后GaussianProjection)](./v4/v4_standard/std_random-w-gaussianProj/)
+4. [random初始化topic时改变方差-(不使用GaussianProjection)](./v4/v4_standard/std_random-wo-gaussianProj/)
+# ------
+2024/1/29 update
+[添加v4版本改变kmeans方式，random情况下不正交，改变random方差的实验](#v4结果2)
 # ------
 2024/1/27 update
 [添加v4版本对于california_housing改变topic num的实验结果](#v4)
