@@ -4,11 +4,18 @@
 |-|-|-|-|-|
 |abalone|7|1|regression|2506|
 |airfoil_self_noise|5|0|regression|961|
+|Brazilian_houses|8|4|regression|6415|
 |california_housing|8|0|regression|13209|
+|colleges|33|14|regression|4237|
 |combined_cycle_power_plant|4|0|regression|6123|
 |concrete_compressive_strength|8|0|regression|659|
 |diamonds|6|3|regression|32364|
 |elevators|18|0|regression|9959|
+|House_16H|16|0|regression|13670|
+|house_sales|21|1|regression|12967|
+|OnlineNewPopularity|58|0|regression|23786|
+|physicochemical_properties_of_protein_tertiary_structure|9|0|regression|29267|
+|pol|48|0|regression|9000|
 |qsar_aquatic_toxicity|8|0|regression|349|
 |qsar_fish_toxicity|6|0|regression|581|
 |superconductivty_data|81|0|regression|13608|
@@ -19,6 +26,7 @@
 |wilt|5|0|binclass|2903|
 |aloi|128|0|multiclass:1000|69120|
 |helena|27|0|multiclass:100|41724|
+|jannis|54|0|multiclass:4|53588|
 |jannis|54|0|multiclass:4|53588|
 
 
