@@ -27,7 +27,6 @@
 |aloi|128|0|multiclass:1000|69120|
 |helena|27|0|multiclass:100|41724|
 |jannis|54|0|multiclass:4|53588|
-|jannis|54|0|multiclass:4|53588|
 
 
 
@@ -122,6 +121,14 @@
 2. [random初始化，topic不正交](./v4/v4_standard/orthogonal)
 3. [random初始化topic时改变方差-(先random初始化，后GaussianProjection)](./v4/v4_standard/std_random-w-gaussianProj/)
 4. [random初始化topic时改变方差-(不使用GaussianProjection)](./v4/v4_standard/std_random-wo-gaussianProj/)
+### v4结果3
+1. [random初始化topic时改变方差-(不使用GaussianProjection)(分类数据集)](./v4/v4_standard/std_random-wo-gaussianProj/random_init_wo_gaussianProj_classification.xlsx)
+2. [数据集sample的std,distance correlation等信息](./v4/v4_standard/sample_info_of_dataset/dataset_info.xlsx)
+
+# ------
+2024/1/30 update
+[random初始化topic时改变方差-(不使用GaussianProjection)(分类数据集)](./v4/v4_standard/std_random-wo-gaussianProj/random_init_wo_gaussianProj_classification.xlsx)<br>
+[数据集sample的std,distance correlation等信息](./v4/v4_standard/sample_info_of_dataset/dataset_info.xlsx)<br>
 # ------
 2024/1/29 update
 [添加v4版本改变kmeans方式，random情况下不正交，改变random方差的实验](#v4结果2)
