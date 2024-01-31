@@ -124,7 +124,13 @@
 ### v4结果3
 1. [random初始化topic时改变方差-(不使用GaussianProjection)(分类数据集)](./v4/v4_standard/std_random-wo-gaussianProj/random_init_wo_gaussianProj_classification.xlsx)
 2. [数据集sample的std,distance correlation等信息](./v4/v4_standard/sample_info_of_dataset/dataset_info.xlsx)
-
+## v5
+将v4改为两阶段形式，第一阶段训练baseline,第二阶段固定baseline的encoder训练topic, estimator_head，和hea
+### v5结果
+1. [回归数据集结果(topic random 初始化，std=1.0)，与v4(random初始化，std=1.0)对比](./v5/v5_regression.xlsx)
+# ------
+2023/1/31 update
+[v5版本结果：将v4改为两阶段形式，第一阶段训练baseline,第二阶段固定baseline的encoder训练topic, estimator_head，和head](#v5结果)
 # ------
 2024/1/30 update
 [random初始化topic时改变方差-(不使用GaussianProjection)(分类数据集)](./v4/v4_standard/std_random-wo-gaussianProj/random_init_wo_gaussianProj_classification.xlsx)<br>
