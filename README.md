@@ -128,11 +128,18 @@
 将v4改为两阶段形式，第一阶段训练baseline,第二阶段固定baseline的encoder训练topic, estimator_head，和hea
 ### v5结果
 1. [回归数据集结果(topic random 初始化，std=1.0)，与v4(random初始化，std=1.0)对比](./v5/v5_regression.xlsx)
-### v5其他实验
-1. [正交实验(topic正交)](./v5/v5_orthogonal/v5_regression_orthogonal_weight.xlsx)
-2. [少量样本实验(按照一定ratio采样样本)](./v5/v5_few_sample/v5_regression_few_sample.xlsx)
-3. [feature缺失实验(随机mask掉部分feature)](./v5/v5_missing_value/v5_regression_missing_value.xlsx)
+### v5主要实验
+1. [正交实验(topic正交)](./v5/main_exp/v5_orthogonal/v5_regression_orthogonal_weight.xlsx)
+2. [少量样本实验(按照一定ratio采样样本)](./v5/main_exp/v5_few_sample/v5_regression_few_sample.xlsx)
+3. [feature缺失实验(随机mask掉部分feature)](./v5/main_exp/v5_missing_value/v5_regression_missing_value.xlsx)
 
+### v5其他实验
+1. [aloi数据集不同prototype num结果](./v5/other_exp/classification_aloi.xlsx)
+2. [二分类数据集不同prototype num结果](./v5/other_exp/classification_binary_classification.xlsx)
+
+#2023/2/26 update
+# ------
+[]()
 # ------
 2023/2/19 update
 [加入v5版本的其他实验(topic正交、随机采样部分样本、随机mask掉部分feature-value)](#v5其他实验)
