@@ -127,19 +127,21 @@
 ## v5
 将v4改为两阶段形式，第一阶段训练baseline,第二阶段固定baseline的encoder训练topic, estimator_head，和hea
 ### v5结果
-1. [回归数据集结果(topic random 初始化，std=1.0)，与v4(random初始化，std=1.0)对比](./v5/v5_regression.xlsx)
+1. [回归数据集结果(topic random 初始化，std=1.0)，与v4(random初始化，std=1.0)对比](./v5/main_exp/v5_regression.xlsx)
 ### v5主要实验
 1. [正交实验(topic正交)](./v5/main_exp/v5_orthogonal/v5_regression_orthogonal_weight.xlsx)
 2. [少量样本实验(按照一定ratio采样样本)](./v5/main_exp/v5_few_sample/v5_regression_few_sample.xlsx)
 3. [feature缺失实验(随机mask掉部分feature)](./v5/main_exp/v5_missing_value/v5_regression_missing_value.xlsx)
-
+4. [regression数据集不同prototype num结果](./v5/main_exp/v5_prototype_num/v5_regression_prototype_num.xlsx)
 ### v5其他实验
 1. [aloi数据集不同prototype num结果](./v5/other_exp/classification_aloi.xlsx)
-2. [二分类数据集不同prototype num结果](./v5/other_exp/classification_binary_classification.xlsx)
+2. [aloi数据集以外其他数据集不同prototype_num结果](./v5/other_exp/classification_except_aloi.xlsx
+3. [VIME在regression数据集实验结果(为了结果不偏离正常值过多，使用了不同VIME超参)](./v5/other_exp/regression_add_VIME.xlsx)
 
-#2023/2/26 update
+#2023/2/27 update
 # ------
-[]()
+[加入classification数据集不同prototype num实验](#v5其他实验)
+[加入VIME在regrssion数据集实验结果](#v5其他实验)
 # ------
 2023/2/19 update
 [加入v5版本的其他实验(topic正交、随机采样部分样本、随机mask掉部分feature-value)](#v5其他实验)
