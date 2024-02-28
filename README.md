@@ -137,9 +137,12 @@
 1. [aloi数据集不同prototype num结果](./v5/other_exp/classification_aloi.xlsx)
 2. [aloi数据集以外其他数据集不同prototype_num结果](./v5/other_exp/classification_except_aloi.xlsx
 3. [VIME在regression数据集实验结果(为了结果不偏离正常值过多，使用了不同VIME超参)](./v5/other_exp/regression_add_VIME.xlsx)
-
-#2023/2/27 update
+4. [hiden representaion可视化](./v5/other_exp/Visualization/Representaion/)
 # ------
+#2023/2/28 update
+[加入hidden representaion的可视化](#v5其他实验)
+# ------
+#2023/2/27 update
 [加入classification数据集不同prototype num实验](#v5其他实验)
 [加入VIME在regrssion数据集实验结果](#v5其他实验)
 # ------
