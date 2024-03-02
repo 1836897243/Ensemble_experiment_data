@@ -13,6 +13,7 @@
 |elevators|18|0|regression|9959|
 |House_16H|16|0|regression|13670|
 |house_sales|21|1|regression|12967|
+|microsoft|136|0|regression|723412|
 |OnlineNewPopularity|58|0|regression|23786|
 |physicochemical_properties_of_protein_tertiary_structure|9|0|regression|29267|
 |pol|48|0|regression|9000|
@@ -20,6 +21,8 @@
 |qsar_fish_toxicity|6|0|regression|581|
 |superconductivty_data|81|0|regression|13608|
 |yacht_hydrodynamics|6|0|regression|197|
+|yahoo|699|0|regression|473134|
+|year|90|0|regression|370972|
 |adult|6|8|binclass|26048|
 |Click prediction small|11|0|binclass|23968|
 |higgs_small|28|0|binclass|62752|
@@ -139,6 +142,10 @@
 3. [VIME在regression数据集实验结果(为了结果不偏离正常值过多，使用了不同VIME超参)](./v5/other_exp/regression_add_VIME.xlsx)
 4. [hiden representaion可视化](./v5/other_exp/Visualization/Representaion/)
 5. [jannis使用不同activation,不同estimator实验结果](./v5/other_exp/jannis_experiment/)
+6. [所有数据集representaion的tsne可视化，系数r的heatmap可视化](./v5/other_exp/Visualization/Visual_all(Tsne,heatmap))
+# ------
+#2024/3/2 update
+[将所有数据集的representaion以及r进行可视化]
 # ------
 #2023/2/28 update
 [加入hidden representaion的可视化](#v5其他实验)
