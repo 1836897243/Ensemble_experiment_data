@@ -143,6 +143,11 @@
 4. [hiden representaion可视化](./v5/other_exp/Visualization/Representaion/)
 5. [jannis使用不同activation,不同estimator实验结果](./v5/other_exp/jannis_experiment/)
 6. [所有数据集representaion的tsne可视化，系数r的heatmap可视化](./v5/other_exp/Visualization/Visual_all(Tsne,heatmap))
+7. [新的数据集-multiclass](./v5/other_exp/multiclass_new_dataset.xlsx)
+
+# ------
+#2024/3/6 update
+[添加新的多酚类数据集](#v5其他实验)
 # ------
 #2024/3/2 update
 [将所有数据集的representaion以及r进行可视化]
