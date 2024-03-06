@@ -9,12 +9,13 @@
 |colleges|33|14|regression|4237|
 |combined_cycle_power_plant|4|0|regression|6123|
 |concrete_compressive_strength|8|0|regression|659|
+|connect-4|126|0|regression|40534|
 |diamonds|6|3|regression|32364|
 |elevators|18|0|regression|9959|
 |House_16H|16|0|regression|13670|
 |house_sales|21|1|regression|12967|
 |microsoft|136|0|regression|723412|
-|OnlineNewPopularity|58|0|regression|23786|
+|OnlineNewsPopularity|58|0|regression|23786|
 |physicochemical_properties_of_protein_tertiary_structure|9|0|regression|29267|
 |pol|48|0|regression|9000|
 |qsar_aquatic_toxicity|8|0|regression|349|
@@ -24,12 +25,40 @@
 |yahoo|699|0|regression|473134|
 |year|90|0|regression|370972|
 |adult|6|8|binclass|26048|
-|Click prediction small|11|0|binclass|23968|
+|Amazon_employee_access|0|9|binclass|19661|
+|Australian|14|0|binclass|414|
+|bank-marketing|7|9|binclass|27126|
+|Click_prediction_small|11|0|binclass|23968|
+|guillermo|4296|0|binclass|12000|
 |higgs_small|28|0|binclass|62752|
+|jasmine|8|136|binclass|1790|
+|kc1|21|0|binclass|1265|
+|kick|14|18|binclass|43789|
+|kr-vs-kp|0|36|binclass|1917|
+|madeline|259|0|binclass|1884|
+|MiniBooNE|50|0|binclass|78038|
+|nomao|89|29|binclass|20679|
+|PhishingWebsites|0|30|binclass|6633|
+|sylvine|20|0|binclass|3074|
 |wilt|5|0|binclass|2903|
 |aloi|128|0|multiclass:1000|69120|
+|cmc|2|7|multiclass:3|883|
+|Diabetes130US|13|36|multiclass:3|61059|
+|dna|0|180|multiclass:3|1911|
+|eucalyptus|14|5|multiclass:5|441|
+|first-order-theorem-proving|51|0|multiclass:6|3670|
+|GesturePhaseSegmentationProcessed|32|0|multiclass:5|5923|
 |helena|27|0|multiclass:100|41724|
 |jannis|54|0|multiclass:4|53588|
+|jungle_chess_2pcs_endgame_panther_lion|20|26|multiclass:3|2822|
+|mfeat-factors|216|0|multiclass:10|1200|
+|okcupid-stem|2|18|multiclass:3|30473|
+|segment|19|0|multiclass:7|1386|
+|shuttle|9|0|multiclass:7|34800|
+|steel-plates-fault|27|0|multiclass:7|1164|
+|volkert|180|0|multiclass:10|34986|
+|wine-quality-white|11|0|multiclass:7|2938|
+|yeast|8|0|multiclass:10|890|
 
 
 
